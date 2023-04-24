@@ -130,17 +130,20 @@
 }
 
 /* Completed */
-.tasks_complete .task__text {
+.tasks_complete
+.task__text {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.tasks__item_edit .tasks__task-input {
+.tasks__item_edit
+.tasks__task-input {
   display: inline-block;
   width: 224px;
 }
-.tasks__item_edit .task__text {
+.tasks__item_edit
+.task__text {
   display: none;
 }
